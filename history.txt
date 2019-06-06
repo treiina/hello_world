@@ -1,1 +1,3 @@
 History of the project
+
+1. Add reading from files
