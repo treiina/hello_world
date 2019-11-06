@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddDialog</class>
+ <widget class="QDialog" name="AddDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Adding new record</string>
+  </property>
+  <property name="windowOpacity">
+   <double>2.000000000000000</double>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Adding new record</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>70</y>
+     <width>801</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>400</y>
+     <width>186</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QPushButton" name="okButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Ok</string>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancelButton">
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter_2">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>200</y>
+     <width>137</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>id:</string>
+    </property>
+    <property name="buddy">
+     <cstring>idEdit</cstring>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="idEdit"/>
+  </widget>
+  <widget class="QSplitter" name="splitter_3">
+   <property name="geometry">
+    <rect>
+     <x>231</x>
+     <y>200</y>
+     <width>137</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>serial_name:</string>
+    </property>
+    <property name="buddy">
+     <cstring>serialNameEdit</cstring>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="serialNameEdit"/>
+  </widget>
+  <widget class="QSplitter" name="splitter_4">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>200</y>
+     <width>138</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QLabel" name="label_4">
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>number_of_series:</string>
+    </property>
+    <property name="buddy">
+     <cstring>numSeriesEdit</cstring>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="numSeriesEdit"/>
+  </widget>
+  <widget class="QSplitter" name="splitter_5">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>200</y>
+     <width>137</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>is_watched:</string>
+    </property>
+    <property name="buddy">
+     <cstring>isWatchedEdit</cstring>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="isWatchedEdit"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,5 +1,0 @@
-History of the project
-
-1. Add reading from files
-
-2. Add writing to files

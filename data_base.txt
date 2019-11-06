@@ -1,0 +1,8 @@
+109k;LadyBag;26;True
+012q;GameOfThrones;8;False
+943p;GoodDoctor;24;True
+145y;TheMagicians;80;False
+372s;OnePiece;;False
+666m;ShamanKing;40;True
+394x;TeenWolf;50;False
+294a;;180;True
